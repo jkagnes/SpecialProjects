@@ -1,0 +1,28 @@
+﻿@model IEnumerable<Product>
+
+@{
+    ViewBag.Title = "Products";
+}
+
+<div style="padding-top:40px;margin-left:-20px;" class="container-fluid">
+    <div class="row">
+        @foreach (var item in Model)
+        {
+            <div class="col-md-4">
+                <div class="thumbnail right-caption span4" style="width: 250px; height: 400px;border:none;">
+                    <a href='@Url.Action("Detail", "Product", new{id = item.Id})'>
+                        <img src='@Url.Action("show", "image", new { id = item.Id })' width="250" height="400" />
+                    </a>
+                    <div class="caption">
+                        <a href='@Url.Action("Detail", "Product", new{id = item.Id})'>
+                            <h3>@item.Name</h3>
+                        </a>
+                        <div class="price">
+                            <label class="btn btn-primary btn-sm">@item.Price.ToString("c")</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

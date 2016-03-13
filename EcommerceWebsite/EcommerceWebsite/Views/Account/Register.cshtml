@@ -1,0 +1,38 @@
+﻿@model EcommerceWebsite.ViewModels.RegisterViewModel
+
+@{
+    ViewBag.Title = "Register";
+    Layout = "~/Views/Shared/_Layout1.cshtml";
+}
+
+<div class="panel register-page">
+    <div class="panel-heading">
+        <h3 id="register-Title">Register</h3><hr/>
+        <p style="font-family:Garamond; font-size:20px;text-align:center;">Use the form below to create a new account</p>
+    </div>
+
+    <div class="panel-body" id="registrationfield">
+        @using (Html.BeginForm())
+        {
+            @*@Html.ValidationSummary()*@
+
+            foreach (var property in ViewData.ModelMetadata.Properties)
+            {
+                <div class="form-group register-form-field">
+                    @Html.Label(property.DisplayName)
+                    @Html.Editor(property.PropertyName)
+                    @Html.ValidationMessage(property.PropertyName)
+
+                    @*@Html.LabelFor(model => model.FirstName, htmlAttributes: new { @class = "control-label col-md-2" })
+                        @Html.EditorFor(property.PropertyName, null, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(model => model.FirstName)*@
+                </div>
+            }
+
+            <br/>
+            <div class="buttons text-center">
+                <input type="submit" id="register-button" class="button-1 register-next-step-button" value="Register" name="register-button" />
+            </div>            
+        }
+    </div>
+</div>

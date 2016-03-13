@@ -1,0 +1,26 @@
+﻿@model IEnumerable<EcommerceWebsite.Models.CategoryViewModel>
+@{
+    ViewBag.Title = "TopMenu";
+}
+
+@foreach (var item in Model)
+{
+    <li class="dropdown divider-vertical" id="topMenuTitle">
+        <a href='@Url.Action("MainProducts", "Product", new{category = item.Name})'>
+            @item.Name
+        </a>
+        @if (item.SubCategory.Count > 0)
+        {
+            <ul class="dropdown-menu">
+                                @foreach (var subcategory in item.SubCategory)
+            {
+                <li class="subCategoryTopMenu">
+                    @Html.RouteLink(subcategory,
+                                                            new { controller = "Product", action = "SubcategoryProducts", category = subcategory })
+                </li>
+            }
+            </ul>
+        }        
+    </li>
+}
+

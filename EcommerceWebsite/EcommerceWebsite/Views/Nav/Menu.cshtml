@@ -1,0 +1,29 @@
+﻿@model IEnumerable<EcommerceWebsite.Models.CategoryViewModel>
+
+@{
+    ViewBag.Title = "SideMenu";    
+}
+
+<ul class=" sidemenu">
+    @foreach (var item in Model)
+    {
+        @*<li class="title"><a href="@Url.Action("Index", "Home", new{category=item.Name})">@item.Name</a>*@
+        <li class="title">
+            @Html.RouteLink(item.Name, new { controller = "Product", action = "MainProducts", category = item.Name },
+                                                    new { @class = (item.Name == ViewBag.SelectedCategory ? "current" : " ") })
+            @if (item.SubCategory.Count > 0)
+            {
+                <ul>
+                    @foreach (var subcategory in item.SubCategory)
+                    {
+                        @*<li class="subtitle"><a href="#">@subcategory</a></li>*@
+                        <li class="subtitle"> 
+                            @Html.RouteLink(subcategory, new { controller = "Product", action = "SubcategoryProducts", category = subcategory },
+                                                  new { @class = (subcategory.ToString() == ViewBag.SelectedCategory ? "current" : " ") })
+                        </li>
+                    }
+                </ul>
+            }
+        </li>
+    }
+</ul>

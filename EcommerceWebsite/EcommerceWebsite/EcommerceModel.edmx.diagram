@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="9ce5854551144339b48b22e002106cd1" Name="Diagram1" ZoomLevel="86">
+        <EntityTypeShape EntityType="EcommerceModel.Address" Width="1.5" PointX="5.25" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="EcommerceModel.Category" Width="1.5" PointX="7.5" PointY="17.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EcommerceModel.Customer" Width="1.5" PointX="3" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EcommerceModel.CustomerRole" Width="1.5" PointX="0.75" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="EcommerceModel.Order" Width="1.5" PointX="7.5" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="EcommerceModel.OrderItem" Width="1.5" PointX="9.75" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="EcommerceModel.Picture" Width="1.5" PointX="7.5" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EcommerceModel.Product" Width="1.5" PointX="7.5" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="EcommerceModel.Product_Category_Mapping" Width="1.5" PointX="9.75" PointY="11.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="EcommerceModel.Product_Picture_Mapping" Width="1.5" PointX="9.75" PointY="9" IsExpanded="true" />
+        <AssociationConnector Association="EcommerceModel.Customer_BillingAddress" ManuallyRouted="false" />
+        <AssociationConnector Association="EcommerceModel.Customer_ShippingAddress" ManuallyRouted="false" />
+        <AssociationConnector Association="EcommerceModel.Order_BillingAddress" ManuallyRouted="false" />
+        <AssociationConnector Association="EcommerceModel.Order_ShippingAddress" ManuallyRouted="false" />
+        <AssociationConnector Association="EcommerceModel.ProductCategory_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="EcommerceModel.Customer_CustomerRole" ManuallyRouted="false" />
+        <AssociationConnector Association="EcommerceModel.Order_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="EcommerceModel.OrderItem_Order" ManuallyRouted="false" />
+        <AssociationConnector Association="EcommerceModel.OrderItem_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="EcommerceModel.ProductPicture_Picture" ManuallyRouted="false" />
+        <AssociationConnector Association="EcommerceModel.ProductCategory_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="EcommerceModel.ProductPicture_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="EcommerceModel.CustomerAddresses" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,61 @@
+﻿@model EcommerceWebsite.ViewModels.CartIndexViewModel
+
+@{
+    ViewBag.Title = "Order Confirmation";
+}
+
+<div style="margin-left:60px;margin-top:-40px;width:90%">
+
+    <h2 style="font-family:'Times New Roman'; font-size:26px;">Order Confirmation</h2>
+    <p style="font-family: 'Times New Roman'; font-size: 18px; padding: 5px 0;">Thanks for placing your order. We'll ship your goods as soon as possible.</p>
+
+    <div class="panel panel-default" style="width: 300px; float: left;">
+        <div class="panel-heading" style="font-family:Cambria;font-size:20px;">Shipping Information</div>
+        <div class="panel-body">
+            <p class="=lead">@ViewBag.Fname @ViewBag.Lname</p>
+            <p>@ViewBag.Line1 @ViewBag.Line2</p>
+            <p>@ViewBag.City</p>
+            <p>@ViewBag.State</p>
+            <p>@ViewBag.Country</p>
+            <p>@ViewBag.Zip</p>
+        </div>
+    </div>
+
+    <div class="panel panel-default" style="float:right; width:700px;">
+        <div class="panel-heading" style="font-family:Cambria;font-size:20px;">Order Summary</div>
+        <div class="panel-body">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Quantity</th>
+                        <th>Item</th>
+                        <th class="text-right">Price</th>
+                        <th class="text-right">Subtotal</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var line in Model.Cart.Lines){                     
+                        <tr>
+                            <td>@line.Quantity</td>
+                            <td class="text-left">@line.Product.Name</td>
+                            <td class="text-right">@line.Product.Price.ToString("c")</td>
+                            <td class="text-right">
+                                @((line.Quantity * line.Product.Price).ToString("c"))
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3" class="text-right">Total:</td>
+                        <td class="text-right">
+                            @Model.Cart.ComputeTotalValue().ToString("c")
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </div>
+    
+</div>
+

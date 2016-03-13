@@ -1,0 +1,50 @@
+﻿@model EcommerceWebsite.ViewModels.LoginViewModel
+
+@{
+    ViewBag.Title = "Login";
+}
+
+<div class="panel loginPage">
+    <div class="panel-heading">
+        <h3 id="loginTitle">Sign In</h3>
+    </div>
+
+    <div class="panel-body" id="formfield">        
+        @using (Html.BeginForm())
+        {
+            @Html.ValidationSummary()
+            
+            <div class="form-group">
+                <label style="padding:5px;">User Name</label>
+                @Html.TextBoxFor(m => m.UserName, new { @class = "form-control"})
+            </div>
+            
+            <div class="form-group">
+                <label style="padding:5px;">Password</label>
+
+                @*@Html.LabelFor(m => m.Password, new { }, ":")*@
+                
+                @Html.PasswordFor(m => m.Password, new { @class = "form-control" })
+            </div>
+
+            <div style="font-size:16px;">
+                @Html.CheckBoxFor(m => m.RememberMe)
+                <label style="padding:5px;font-weight:100;">Remember me? &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            Forget password?</label>
+            </div>
+            
+            <div>
+                <input class="btn btn-primary" type="submit" id="loginbutton" value="Sign in" />
+            </div>
+
+            <div>
+                <h3 id="newStore">New to Store?</h3>
+            </div>
+
+            <div>
+                <a class="btn btn-primary" id="loginbutton" href="~/Account/Register" style="margin-top:8px;">Create an account</a>
+            </div>
+        }
+    </div>
+</div>
+

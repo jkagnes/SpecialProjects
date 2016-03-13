@@ -1,0 +1,299 @@
+﻿body {
+}
+
+/*Top Header*/
+
+.top-menu li#topitem{
+    padding: 0 20px 0 20px;
+}
+
+.top-menu li#topitem a:link {
+    color:black;
+}
+
+.top-menu li#topitem a:hover {
+    color:#00ccff;
+    text-decoration:none;
+}
+
+
+h2#sitetitle{
+    display: inline-block; 
+    margin: -10px 0 10px 20px; 
+    text-shadow: 1px 1px 1px #aaa; 
+    font-family:'French Script MT';
+    font-size: 60px;    
+}
+
+h2#sitetitle a:hover{text-decoration:none;}
+
+p#titletag{margin-left:130px;margin-top:-20px; font-style:italic;}
+
+.price{   
+    /*margin: 0 0 15px 0px;*/
+    margin-left:-5px;
+    margin-top:10px;
+    display:inline-block;
+}
+
+.picture {
+    width:250px;
+    height:250px;
+}
+
+.prdtdesc{
+    margin-left:10px;
+    font-family:'Times New Roman';
+    font-size:16px;
+}
+
+h3{
+    font-family:Garamond;
+    color: #4ab2f1; 
+    font-weight:400;
+    font-size:20px;
+    margin:5px 0 10px -7px;
+    height:50px;
+    width:250px;
+}
+
+/*Navigation styles - Side Menu*/
+
+.sidemenu{
+    float:left;
+    margin-top:-15px;
+    padding-right:10px;
+    margin-right:-10px;
+    height:620px;
+}
+
+.sidemenu .title{
+    font-size:16px;
+    padding-bottom:8px;
+    padding-top:5px;
+    margin-top:15px;
+    margin-bottom:10px;
+    list-style-type:square;
+    color:lightgray;
+}
+
+.sidemenu .title .subtitle {
+    font-size:14px;
+    padding-top:5px;
+    padding-bottom:5px;
+    margin-left:-20px;
+    margin-top:10px;
+    list-style-type:square;
+    color:lightgray;
+}
+
+.sidemenutitle{
+    font-size:20px;
+    margin-bottom:-10px;
+    margin-left:20px;
+}
+
+.sidemenu .title a:link {
+    color:black;
+}
+
+.sidemenu li a:visited {
+    color:black;
+}
+
+.sidemenu li.title a:hover{
+    color:#00ccff;
+    text-decoration:none;
+}
+
+.current{
+    font-weight:bold;
+}
+
+/*Navigation style - Top Menu*/
+li#topMenuTitle{
+    margin-left:-5px;
+    font-size:16px;
+    padding: 0 12px 0 12px; 
+}
+
+li#topMenuTitle a:link {
+    color:black;
+}
+
+li#topMenuTitle a:visited {
+    color:black;
+}
+
+li#topMenuTitle a:hover {
+    text-decoration:none;
+    background-color:#fff;
+    color:blue;
+    visibility:visible;
+}
+
+li.dropdown:hover ul.dropdown-menu{
+    display:block;    
+}
+
+li .subCategoryTopMenu{
+    font-size:14px;
+    padding:5px 10px 5px;    
+}
+
+a:active{
+    color:lightblue;
+    text-decoration:none;
+}
+
+.divider-vertical{
+    height: 45px;
+    margin: 0 9px 0;
+    border-right: 1px solid lightgray;
+}
+
+
+
+/*Product Specific Detail Page*/
+#pdetailTitle{
+    font-family:'Times New Roman';    
+}
+
+#pdetailsdesc, #pdetailstock, #pdetailprice{
+    font-size:17px;
+    line-height:25px;
+    font-family:'Times New Roman';
+    text-align:justify;
+}
+
+#pdetailImg{
+    width:450px;
+    height:475px;
+    padding:20px 0 10px 20px;
+    margin-left:30px;
+}
+
+/*Home Page*/
+#homepImg{
+    width:270px;height:170px; margin-right:10px;margin-left:10px; margin:0 10px 0 10px;
+}
+
+#homeImgtitle{
+    margin-left:95px; font-family:'Times New Roman';
+}
+
+#homeCategTitle{
+    margin-bottom:-15px; font-family:'Times New Roman'; font-size:24px;
+}
+
+a:hover{text-decoration:none;}
+
+
+
+/*Login Page*/
+
+.loginPage{
+    margin-left:400px;
+    border:1px solid lightgrey; 
+    width:350px;
+    height:500px;
+}
+
+#loginTitle{
+    font-family:'Times New Roman'; font-size:35px; color:black;
+    padding:5px; margin-top:-5px; margin-bottom:-2px;
+}
+
+#loginbutton {
+    font-family:Garamond; font-size:20px; background-color:#f6db9a; border-color:#f3ce72; color:black;
+    height:35px; padding-bottom:35px; margin-top:25px; width:280px;
+    margin-left:10px;
+}
+
+#formfield {
+    font-family:Cambria;font-size:18px; margin-top:-30px;
+}
+
+#newStore{
+    padding:5px; margin-top:20px; font-family:'Times New Roman'; font-size:28px;
+    margin-bottom:-10px; color:black;
+}
+
+/*Registration Page*/
+
+.register-page{
+    margin-top:-40px; 
+}
+
+h3#register-Title{
+    display:inline; margin-left:480px;
+    font-family:'Times New Roman'; font-size:40px; color:black;
+}
+
+#registrationfield{
+    font-family:Cambria;font-size:18px; font-weight:normal; 
+}
+
+#register-button{
+    padding-left:15px; padding-right:15px;
+}
+
+.register-form-field{
+    margin-left:220px;
+    width:900px;
+}
+
+.register-form-field label{
+    font-family:'Times New Roman';font-size:17px; float:left; width:200px; text-align:right; padding-right:15px;
+}
+
+.register-form-field input{
+    width:300px;
+}
+
+/*Checkout Page*/
+h2#checkout-title{
+    font-family:'Times New Roman'; font-size:33px; margin-top:-10px; padding-bottom:5px;
+}
+
+p#checkout-stitle{
+    font-family:'Times New Roman'; font-size:20px; padding-bottom:5px;
+}
+
+#checkout-form-heading{
+    font-family:'Times New Roman';font-size:24px; padding:10px 0 0 5px; margin-left:250px; color:darkblue;
+}
+
+#checkout-field{
+    margin-left:310px;
+    width:600px;
+}
+
+#checkout-field label{
+    font-family:'Times New Roman';font-size:17px; float:left; width:100px; text-align:right; padding-right:15px;
+}
+
+#checkout-field input[type=text]{
+    width:300px;
+}
+
+
+
+/*Error Styling*/
+.field-validation-error{color: #f00;}
+.field-validation-valid{ display: none;}
+.input-validation-error{ border: 1px solid #f00; background-color: #fee; }
+.validation-summary-errors{ font-weight: bold; color: #f00;}
+.validation-summary-valid{ display: none;}
+
+
+
+/*Admin Page Stlying*/
+#adminIndexheading{
+    font-family:'Times New Roman';font-size:26px;color:black;text-align:center;padding-top:15px; 
+}
+
+#adminEditheading{
+    font-family:'Times New Roman';font-size:24px;color:black;text-align:center;
+    padding-top:15px; width:500px;
+}

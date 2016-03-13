@@ -1,0 +1,31 @@
+﻿@*@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}*@
+
+@{
+    var controller= HttpContext.Current.Request.RequestContext.RouteData.Values["Controller"].ToString();
+    
+    var action= HttpContext.Current.Request.RequestContext.RouteData.Values["Action"].ToString();
+    
+    string clayout = "";
+    /*
+    if (controller == "Home" || (controller == "Product" && action == "Detail") ||
+        controller == "Cart" || controller == "Account")
+    {
+
+        clayout = "~/Views/Shared/_Layout1.cshtml";
+    }
+    else
+    {
+        clayout = "~/Views/Shared/_Layout.cshtml";
+    }*/
+
+    if ((controller == "Product" && action == "MainProducts") ||
+                        (controller == "Product" && action == "SubcategoryProducts") ||
+                        (controller == "Nav" && action == "Menu")) {
+        clayout = "~/Views/Shared/_Layout.cshtml";
+    } else {
+        clayout = "~/Views/Shared/_Layout1.cshtml";
+    }
+    Layout = clayout;
+}

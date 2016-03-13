@@ -1,0 +1,31 @@
+﻿@model EcommerceWebsite.Models.ShippingDetails
+
+@{
+    ViewBag.Title = "Checkout";
+}
+
+<h2 id="checkout-title" class="text-center">Checkout</h2><hr/>
+<p id="checkout-stitle" class="text-center">Please enter your details, and we'll ship your goods right away!</p>
+
+<div>
+    @using (Html.BeginForm())
+    {
+        @*@Html.ValidationSummary()*@
+        <h3 id="checkout-form-heading" class="text-center">Ship to</h3>
+
+        foreach (var property in ViewData.ModelMetadata.Properties)
+        {
+            <div class="form-group" id="checkout-field">
+                <label>@(property.DisplayName ?? property.PropertyName)</label>
+                @Html.Editor(property.PropertyName)
+                @*@Html.TextBox(property.PropertyName, null, new { @class = "form-control" })*@
+                @Html.ValidationMessage(property.PropertyName)
+            </div>
+        }
+     
+        <div class="text-center"><br/>
+            <input class="btn btn-primary" type="submit" value="Complete order" />
+        </div>
+    }
+</div>
+

@@ -1,0 +1,133 @@
+﻿@{
+    ViewBag.Title = "Home";
+}
+
+<div class="container" style="width:90%;">
+    <div class="row" style="margin-top:-15px;">
+        <a href='@Url.Action("MainProducts", "Product", new { category = "Computers" })'>
+            <p id="homeCategTitle">Computers</p><hr />
+        </a>
+            <div class="col-md-4">
+                <h4 id="homeImgtitle">Desktops</h4>
+                <a href='@Url.Action("SubcategoryProducts", "Product", new { category = "Desktops" })'>
+                    <img src="~/Content/Images/Desktop.jpg" id="homepImg" />
+                </a>
+            </div>
+
+            <div class="col-md-4">
+                <h4 id="homeImgtitle">Notebooks</h4>
+                <a href='@Url.Action("SubcategoryProducts", "Product", new { category = "Notebooks" })'>
+                    <img src="~/Content/Images/Notebook.jpg" id="homepImg" />
+                </a>
+            </div>
+
+            <div class="col-md-4">
+                <h4 id="homeImgtitle">Software</h4>
+                <a href='@Url.Action("SubcategoryProducts", "Product", new { category = "Software" })'>
+                    <img src="~/Content/Images/Software.jpg" id="homepImg" />
+                </a>
+            </div>
+    </div>
+
+    <div class="row" style="margin-top:50px;">
+        <a href='@Url.Action("MainProducts", "Product", new { category = "Electronics" })'>
+            <p id="homeCategTitle">Electronics</p><hr />
+        </a>
+        <div class="col-md-4">
+            <h4 id="homeImgtitle">Camera & photo</h4>
+            <a href='@Url.Action("SubcategoryProducts", "Product", new { category = "Camera & photo" })'>
+                <img src="~/Content/Images/Camera.jpeg" id="homepImg" />
+            </a>
+        </div>
+
+        <div class="col-md-4">
+            <h4 id="homeImgtitle">Cell phones</h4>
+            <a href='@Url.Action("SubcategoryProducts", "Product", new { category = "Cell phones" })'>
+                <img src="~/Content/Images/CellPhone.jpeg" id="homepImg" />
+            </a>
+        </div>
+
+        <div class="col-md-4">
+            <h4 id="homeImgtitle">Others</h4>
+            <a href='@Url.Action("SubcategoryProducts", "Product", new { category = "Others" })'>
+                <img src="~/Content/Images/Others.jpg" id="homepImg" />
+            </a>
+        </div>
+    </div>
+
+    <div class="row" style="margin-top:50px;">
+        <a href='@Url.Action("MainProducts", "Product", new { category = "Apparel" })'>
+            <p id="homeCategTitle">Apparel</p><hr />
+        </a>
+        <div class="col-md-4">
+            <h4 id="homeImgtitle">Shoes</h4>
+            <a href='@Url.Action("SubcategoryProducts", "Product", new { category = "Shoes" })'>
+                <img src="~/Content/Images/Shoes.jpg" id="homepImg" />
+            </a>
+        </div>
+
+        <div class="col-md-4">
+            <h4 id="homeImgtitle">Clothing</h4>
+            <a href='@Url.Action("SubcategoryProducts", "Product", new { category = "Clothing" })'>
+                <img src="~/Content/Images/Clothing.jpg" id="homepImg" />
+            </a>
+        </div>
+
+        <div class="col-md-4">
+            <h4 id="homeImgtitle">Accessories</h4>
+            <a href='@Url.Action("SubcategoryProducts", "Product", new { category = "Accessories" })'>
+                <img src="~/Content/Images/Accessories.jpg" id="homepImg" />
+            </a>
+        </div>
+    </div>
+
+    <div class="row" style="margin-top:50px;">
+        <a href='@Url.Action("MainProducts", "Product", new { category = "Digital downloads" })'>
+            <p id="homeCategTitle">Digital downloads</p><hr />
+        </a>
+        <div class="col-md-4">
+            <h4 id="homeImgtitle">Downloads</h4>
+            <a href='@Url.Action("MainProducts", "Product", new { category = "Digital downloads" })'>
+                <img src="~/Content/Images/Digital.jpg" id="homepImg" />
+            </a>
+        </div>
+    </div>
+
+    <div class="row" style="margin-top:50px;">
+        <a href='@Url.Action("MainProducts", "Product", new { category = "Books" })'>
+            <p id="homeCategTitle">Books</p><hr />
+        </a>
+        <div class="col-md-4">
+            <h4 id="homeImgtitle">Books</h4>
+            <a href='@Url.Action("MainProducts", "Product", new { category = "Books" })'>
+                <img src="~/Content/Images/Books.png" id="homepImg" />
+            </a>
+        </div>
+    </div>
+
+    <div class="row" style="margin-top:50px;">
+        <a href='@Url.Action("MainProducts", "Product", new { category = "Jewelry" })'>
+            <p id="homeCategTitle">Jewelry</p><hr />
+        </a>
+        <div class="col-md-4">
+            <h4 id="homeImgtitle">Jewelry</h4>
+            <a href='@Url.Action("MainProducts", "Product", new { category = "Jewelry" })'>
+                <img src="~/Content/Images/Jewelry.jpg" id="homepImg" />
+            </a>
+        </div>
+    </div>
+
+    <div class="row" style="margin-top:50px;">
+        <a href='@Url.Action("MainProducts", "Product", new { category = "Gift Cards" })'>
+            <p id="homeCategTitle">Gift Cards</p><hr />
+        </a>
+        <div class="col-md-4">
+            <h4 id="homeImgtitle">Gift Cards</h4>
+            <a href='@Url.Action("MainProducts", "Product", new { category = "Gift Cards" })'>
+                <img src="~/Content/Images/GiftCard.jpg" id="homepImg" />
+            </a>
+        </div>
+    </div>
+
+</div>
+

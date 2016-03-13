@@ -1,0 +1,45 @@
+C:\Users\v-maprem\Desktop\LWTECH_AGNES\MainProjects\EcommerceWebsiteApp\EcommerceWebSite\EcommerceWebsite\EcommerceWebsite\bin\EcommerceWebsite.dll.config
+C:\Users\v-maprem\Desktop\LWTECH_AGNES\MainProjects\EcommerceWebsiteApp\EcommerceWebSite\EcommerceWebsite\EcommerceWebsite\bin\EcommerceWebsite.dll
+C:\Users\v-maprem\Desktop\LWTECH_AGNES\MainProjects\EcommerceWebsiteApp\EcommerceWebSite\EcommerceWebsite\EcommerceWebsite\bin\EcommerceWebsite.pdb
+C:\Users\v-maprem\Desktop\LWTECH_AGNES\MainProjects\EcommerceWebsiteApp\EcommerceWebSite\EcommerceWebsite\EcommerceWebsite\bin\EntityFramework.dll
+C:\Users\v-maprem\Desktop\LWTECH_AGNES\MainProjects\EcommerceWebsiteApp\EcommerceWebSite\EcommerceWebsite\EcommerceWebsite\bin\EntityFramework.SqlServer.dll
+C:\Users\v-maprem\Desktop\LWTECH_AGNES\MainProjects\EcommerceWebsiteApp\EcommerceWebSite\EcommerceWebsite\EcommerceWebsite\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\v-maprem\Desktop\LWTECH_AGNES\MainProjects\EcommerceWebsiteApp\EcommerceWebSite\EcommerceWebsite\EcommerceWebsite\bin\System.Web.Helpers.dll
+C:\Users\v-maprem\Desktop\LWTECH_AGNES\MainProjects\EcommerceWebsiteApp\EcommerceWebSite\EcommerceWebsite\EcommerceWebsite\bin\System.Web.Mvc.dll
+C:\Users\v-maprem\Desktop\LWTECH_AGNES\MainProjects\EcommerceWebsiteApp\EcommerceWebSite\EcommerceWebsite\EcommerceWebsite\bin\System.Web.Razor.dll
+C:\Users\v-maprem\Desktop\LWTECH_AGNES\MainProjects\EcommerceWebsiteApp\EcommerceWebSite\EcommerceWebsite\EcommerceWebsite\bin\System.Web.WebPages.Deployment.dll
+C:\Users\v-maprem\Desktop\LWTECH_AGNES\MainProjects\EcommerceWebsiteApp\EcommerceWebSite\EcommerceWebsite\EcommerceWebsite\bin\System.Web.WebPages.dll
+C:\Users\v-maprem\Desktop\LWTECH_AGNES\MainProjects\EcommerceWebsiteApp\EcommerceWebSite\EcommerceWebsite\EcommerceWebsite\bin\System.Web.WebPages.Razor.dll
+C:\Users\v-maprem\Desktop\LWTECH_AGNES\MainProjects\EcommerceWebsiteApp\EcommerceWebSite\EcommerceWebsite\EcommerceWebsite\bin\EntityFramework.xml
+C:\Users\v-maprem\Desktop\LWTECH_AGNES\MainProjects\EcommerceWebsiteApp\EcommerceWebSite\EcommerceWebsite\EcommerceWebsite\bin\EntityFramework.SqlServer.xml
+C:\Users\v-maprem\Desktop\LWTECH_AGNES\MainProjects\EcommerceWebsiteApp\EcommerceWebSite\EcommerceWebsite\EcommerceWebsite\bin\System.Web.Helpers.xml
+C:\Users\v-maprem\Desktop\LWTECH_AGNES\MainProjects\EcommerceWebsiteApp\EcommerceWebSite\EcommerceWebsite\EcommerceWebsite\bin\System.Web.Mvc.xml
+C:\Users\v-maprem\Desktop\LWTECH_AGNES\MainProjects\EcommerceWebsiteApp\EcommerceWebSite\EcommerceWebsite\EcommerceWebsite\bin\System.Web.Razor.xml
+C:\Users\v-maprem\Desktop\LWTECH_AGNES\MainProjects\EcommerceWebsiteApp\EcommerceWebSite\EcommerceWebsite\EcommerceWebsite\bin\System.Web.WebPages.xml
+C:\Users\v-maprem\Desktop\LWTECH_AGNES\MainProjects\EcommerceWebsiteApp\EcommerceWebSite\EcommerceWebsite\EcommerceWebsite\bin\System.Web.WebPages.Deployment.xml
+C:\Users\v-maprem\Desktop\LWTECH_AGNES\MainProjects\EcommerceWebsiteApp\EcommerceWebSite\EcommerceWebsite\EcommerceWebsite\bin\System.Web.WebPages.Razor.xml
+C:\Users\v-maprem\Desktop\LWTECH_AGNES\MainProjects\EcommerceWebsiteApp\EcommerceWebSite\EcommerceWebsite\EcommerceWebsite\obj\Debug\EcommerceWebsite.dll
+C:\Users\v-maprem\Desktop\LWTECH_AGNES\MainProjects\EcommerceWebsiteApp\EcommerceWebSite\EcommerceWebsite\EcommerceWebsite\obj\Debug\EcommerceWebsite.pdb
+C:\Users\v-maprem\Desktop\LWTECH_AGNES\MainProjects\EcommerceWebsiteApp - Copy\EcommerceWebSite\EcommerceWebsite\EcommerceWebsite\bin\EcommerceWebsite.dll.config
+C:\Users\v-maprem\Desktop\LWTECH_AGNES\MainProjects\EcommerceWebsiteApp - Copy\EcommerceWebSite\EcommerceWebsite\EcommerceWebsite\bin\EcommerceWebsite.dll
+C:\Users\v-maprem\Desktop\LWTECH_AGNES\MainProjects\EcommerceWebsiteApp - Copy\EcommerceWebSite\EcommerceWebsite\EcommerceWebsite\bin\EcommerceWebsite.pdb
+C:\Users\v-maprem\Desktop\LWTECH_AGNES\MainProjects\EcommerceWebsiteApp - Copy\EcommerceWebSite\EcommerceWebsite\EcommerceWebsite\bin\EntityFramework.dll
+C:\Users\v-maprem\Desktop\LWTECH_AGNES\MainProjects\EcommerceWebsiteApp - Copy\EcommerceWebSite\EcommerceWebsite\EcommerceWebsite\bin\EntityFramework.SqlServer.dll
+C:\Users\v-maprem\Desktop\LWTECH_AGNES\MainProjects\EcommerceWebsiteApp - Copy\EcommerceWebSite\EcommerceWebsite\EcommerceWebsite\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\v-maprem\Desktop\LWTECH_AGNES\MainProjects\EcommerceWebsiteApp - Copy\EcommerceWebSite\EcommerceWebsite\EcommerceWebsite\bin\System.Web.Helpers.dll
+C:\Users\v-maprem\Desktop\LWTECH_AGNES\MainProjects\EcommerceWebsiteApp - Copy\EcommerceWebSite\EcommerceWebsite\EcommerceWebsite\bin\System.Web.Mvc.dll
+C:\Users\v-maprem\Desktop\LWTECH_AGNES\MainProjects\EcommerceWebsiteApp - Copy\EcommerceWebSite\EcommerceWebsite\EcommerceWebsite\bin\System.Web.Razor.dll
+C:\Users\v-maprem\Desktop\LWTECH_AGNES\MainProjects\EcommerceWebsiteApp - Copy\EcommerceWebSite\EcommerceWebsite\EcommerceWebsite\bin\System.Web.WebPages.Deployment.dll
+C:\Users\v-maprem\Desktop\LWTECH_AGNES\MainProjects\EcommerceWebsiteApp - Copy\EcommerceWebSite\EcommerceWebsite\EcommerceWebsite\bin\System.Web.WebPages.dll
+C:\Users\v-maprem\Desktop\LWTECH_AGNES\MainProjects\EcommerceWebsiteApp - Copy\EcommerceWebSite\EcommerceWebsite\EcommerceWebsite\bin\System.Web.WebPages.Razor.dll
+C:\Users\v-maprem\Desktop\LWTECH_AGNES\MainProjects\EcommerceWebsiteApp - Copy\EcommerceWebSite\EcommerceWebsite\EcommerceWebsite\bin\EntityFramework.xml
+C:\Users\v-maprem\Desktop\LWTECH_AGNES\MainProjects\EcommerceWebsiteApp - Copy\EcommerceWebSite\EcommerceWebsite\EcommerceWebsite\bin\EntityFramework.SqlServer.xml
+C:\Users\v-maprem\Desktop\LWTECH_AGNES\MainProjects\EcommerceWebsiteApp - Copy\EcommerceWebSite\EcommerceWebsite\EcommerceWebsite\bin\System.Web.Helpers.xml
+C:\Users\v-maprem\Desktop\LWTECH_AGNES\MainProjects\EcommerceWebsiteApp - Copy\EcommerceWebSite\EcommerceWebsite\EcommerceWebsite\bin\System.Web.Mvc.xml
+C:\Users\v-maprem\Desktop\LWTECH_AGNES\MainProjects\EcommerceWebsiteApp - Copy\EcommerceWebSite\EcommerceWebsite\EcommerceWebsite\bin\System.Web.Razor.xml
+C:\Users\v-maprem\Desktop\LWTECH_AGNES\MainProjects\EcommerceWebsiteApp - Copy\EcommerceWebSite\EcommerceWebsite\EcommerceWebsite\bin\System.Web.WebPages.xml
+C:\Users\v-maprem\Desktop\LWTECH_AGNES\MainProjects\EcommerceWebsiteApp - Copy\EcommerceWebSite\EcommerceWebsite\EcommerceWebsite\bin\System.Web.WebPages.Deployment.xml
+C:\Users\v-maprem\Desktop\LWTECH_AGNES\MainProjects\EcommerceWebsiteApp - Copy\EcommerceWebSite\EcommerceWebsite\EcommerceWebsite\bin\System.Web.WebPages.Razor.xml
+C:\Users\v-maprem\Desktop\LWTECH_AGNES\MainProjects\EcommerceWebsiteApp - Copy\EcommerceWebSite\EcommerceWebsite\EcommerceWebsite\obj\Debug\EcommerceWebsite.dll
+C:\Users\v-maprem\Desktop\LWTECH_AGNES\MainProjects\EcommerceWebsiteApp - Copy\EcommerceWebSite\EcommerceWebsite\EcommerceWebsite\obj\Debug\EcommerceWebsite.pdb
+C:\Users\v-maprem\Desktop\LWTECH_AGNES\MainProjects\EcommerceWebsiteApp\EcommerceWebSite\EcommerceWebsite\EcommerceWebsite\obj\Debug\EcommerceWebsite.csprojResolveAssemblyReference.cache
